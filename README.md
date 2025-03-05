@@ -5,7 +5,7 @@
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
 
-# Export to HTML - How to Export Only <BODY> Tag Content and Specify the Location of CSS Styles
+# Word Processing - Export Only <BODY> Tag Content and Specify the Location of CSS Styles
 
 This example uses the <strong>HtmlExporter</strong> class to export the document in HTML format. 
 
