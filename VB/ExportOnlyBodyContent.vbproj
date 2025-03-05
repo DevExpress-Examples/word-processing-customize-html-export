@@ -1,22 +1,23 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-	<TargetFramework>net8.0-windows</TargetFramework>
-	<OutputType>Exe</OutputType>
-	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-	<UseWindowsForms>true</UseWindowsForms>
-	<ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <OptionInfer>On</OptionInfer>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
   </PropertyGroup>
   <ItemGroup>
-	<None Remove="Document.docx" />
+    <None Remove="Document.docx" />
   </ItemGroup>
   <ItemGroup>
-	<Content Include="Document.docx">
-	  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	</Content>
+    <Content Include="Document.docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-	<PackageReference Include="DevExpress.RichEdit.Export" Version="24.2.*" />
-	<PackageReference Include="DevExpress.Document.Processor" Version="24.2.*" />
-	<PackageReference Include="DevExpress.Win.RichEdit" Version="24.2.*" />
+    <PackageReference Include="DevExpress.RichEdit.Export" Version="24.2.*" />
+    <PackageReference Include="DevExpress.Document.Processor" Version="24.2.*" />
+    <PackageReference Include="DevExpress.Win.RichEdit" Version="24.2.*" />
   </ItemGroup>
 </Project>
